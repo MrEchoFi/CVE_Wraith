@@ -73,7 +73,7 @@ Now you can run this tool by typing this:
 
 
 
-# ## NOTE: In this project why NET_Wraith use Api key:
+# ## NOTE: Why CVE_Wraith use Api key:
 
 [[]] Without Api key:
 
