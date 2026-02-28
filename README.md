@@ -33,9 +33,9 @@ Now, when you will see that , NVD have been send the UUID in your provided mail 
 
 [3] 
 
-    git clone <github link>
+    git clone https://github.com/MrEchoFi/CVE_Wraith.git
 
-    cd <working directory>
+    cd CVE_Wraith
 
     //in linux type:
 
@@ -53,6 +53,10 @@ then type the generated api key in line- 459,
 
 
 # Now RUN:
+
+Now you can run this tool by typing this:
+
+           cargo run
 
 //video
 
