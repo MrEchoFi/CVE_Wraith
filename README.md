@@ -20,6 +20,7 @@
 
   📫 How to reach me  **[Website](https://echo-fi-portfolio-node-js.vercel.app/)** ,  **[Website 2](https://tanjib-portfolio-website.vercel.app/)**, **http://mrechofi.github.io/Tanjib_portfolio_website/** & **tanjibisham777@gmail.com & tanjibisham888@gmail.com**
 
+</div>
 
 # Installation Process
 
@@ -32,23 +33,24 @@ Now, when you will see that , NVD have been send the UUID in your provided mail 
 
 [3] 
 
-git clone <github link>
+    git clone <github link>
 
-cd <working directory>
+    cd <working directory>
 
-//in linux type:
+    //in linux type:
 
-export NVD_API_KEY="your generated api key via NVD"
+    export NVD_API_KEY="your generated api key via NVD"
 
-//in windows powershell type,
+    //in windows powershell type,
 
-setx NVD_API_KEY "your_api_key_here"
+    setx NVD_API_KEY "your_api_key_here"
 
 [Remember]- you have to maintain this 'export' methode when you open a new terminal also .
 
 then type the generated api key in line- 459,
 
-  .expect("type your NVD API KEY here"); 
+    .expect("type your NVD API KEY here"); 
+
 
 # Now RUN:
 
