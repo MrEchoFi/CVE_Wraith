@@ -58,7 +58,10 @@ Now you can run this tool by typing this:
 
            cargo run
 
-//video
+- video:
+
+[cve_wraith2.webm](https://github.com/user-attachments/assets/3ec9768d-9548-45b8-be48-26704afc2a04)
+
 
 [~] USAGE:
  
