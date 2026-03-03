@@ -1,7 +1,11 @@
 [package]
-name = "cve_scan"
+name = "cve_wraith"   # this will be the install name
 version = "0.1.0"
 edition = "2024"
+description = "A tool for CVE research and exploitation workflows"
+license = "MIT"       # or another valid SPDX license
+repository = "https://github.com/MrEchoFi/CVE_Wraith"
+
 
 [dependencies]
 tokio = { version = "1", features = ["full"] }
