@@ -107,16 +107,16 @@ Now, when you will see that , NVD have been send the UUID in your provided mail 
       // In windows,
            setx NVD_API_KEY "your_api_key_here"
 
-       Now run,
+        Now run,
 
-       cve_wraith
+        cve_wraith
 
-      OR,
-       chmod +x install2.sh
+        OR,
+            chmod +x install2.sh
             
             ./install2.sh
 
-            then,
+        then,
 
             chmod +x run2.sh
 
