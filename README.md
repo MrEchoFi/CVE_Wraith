@@ -32,7 +32,8 @@ Now, when you will see that , NVD have been send the UUID in your provided mail 
 - [2] Now type your mail(The mail you provided to NVD) and UUID then, click 'Confirm'. Now you will see the 'API KEY'. So, copy the API KEY and STORE the 'NVD API KEY' in a safe file or any text file of yours.
 -  [Remember]- you have to maintain this 'export' methode when you open a new terminal also . Then type the generated api key in line-'459',
 
-    .expect("type your NVD API KEY here"); 
+
+       .expect("type your NVD API KEY here"); 
 
 - [3] Using < git clone > :
 
@@ -51,8 +52,8 @@ Now, when you will see that , NVD have been send the UUID in your provided mail 
 
       cargo run
 
-      OR,
-     
+  - OR > Open 'run.sh' file & navigate the 'NVD API KEY' to this  [export NVD_API_KEY="your generated api key via NVD"] ; Now run:
+  
             chmod +x run.sh
 
             ./run.sh
@@ -79,7 +80,7 @@ Now, when you will see that , NVD have been send the UUID in your provided mail 
             cargo build --release
             ./target/release/<binary-name>
 
-            OR,
+- OR > Open 'run1.sh' file & navigate the 'NVD API KEY' to this  [export NVD_API_KEY="your generated api key via NVD"] ; Now run:
 
             chmod +x run1.sh
 
@@ -101,7 +102,8 @@ Now, when you will see that , NVD have been send the UUID in your provided mail 
 
         cve_wraith
 
-        OR,
+- OR > Open 'run2.sh' file & navigate the 'NVD API KEY' to this  [export NVD_API_KEY="your generated api key via NVD"] ; Now run:
+  
             chmod +x run2.sh
 
             ./run2.sh
