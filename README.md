@@ -52,7 +52,7 @@ Now, when you will see that , NVD have been send the UUID in your provided mail 
 
       cargo run
 
-  - OR > Open 'run.sh' file & navigate the 'NVD API KEY' to this  [export NVD_API_KEY="your generated api key via NVD"] ; Now run:
+- OR > Open 'run.sh' file & navigate the 'NVD API KEY' to this  [export NVD_API_KEY="your generated api key via NVD"] ; Now run:
   
             chmod +x run.sh
 
