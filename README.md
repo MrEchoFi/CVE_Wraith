@@ -24,41 +24,110 @@
 
 # Installation Process
 
-[1]From the NATIONAL VULNERABILITY DATABASE (NVD),
+- [1]From the NATIONAL VULNERABILITY DATABASE (NVD),
 You need to  generate your NVD API KEY from this -> https://nvd.nist.gov/developers/request-an-api-key
 
 Now, when you will see that , NVD have been send the UUID in your provided mail then copy the UUID & go to the this link -> https://nvd.nist.gov/developers/confirm-api-key
 
-[2] Now type your mail(The mail you provided to NVD) and UUID then, click 'Confirm'. Now you will see the 'API KEY'. So, copy the API KEY and STORE the 'NVD API KEY' in a safe file or any text file of yours.
+- [2] Now type your mail(The mail you provided to NVD) and UUID then, click 'Confirm'. Now you will see the 'API KEY'. So, copy the API KEY and STORE the 'NVD API KEY' in a safe file or any text file of yours.
 
-[3] 
+- [3] Using < git clone > :
 
-    git clone https://github.com/MrEchoFi/CVE_Wraith.git
 
-    cd CVE_Wraith
+      git clone https://github.com/MrEchoFi/CVE_Wraith.git
 
-    //in linux type:
+      cd CVE_Wraith
 
-    export NVD_API_KEY="your generated api key via NVD"
+      //in linux type:
 
-    //in windows powershell type,
+      export NVD_API_KEY="your generated api key via NVD"
 
-    setx NVD_API_KEY "your_api_key_here"
+      //in windows powershell type,
 
-[Remember]- you have to maintain this 'export' methode when you open a new terminal also .
+      setx NVD_API_KEY "your_api_key_here"
 
-then type the generated api key in line- 459,
+      cargo run
+
+      OR,
+      chmod +x install.sh
+            
+            ./install.sh
+
+            then,
+
+            chmod +x run.sh
+
+            ./run.sh
+
+            NOTE: Via this "./run.sh " method ; you do not need to type -> [export NVD_API_KEY="your generated api key via NVD"] in terminal while swithcing to new terminal or any terminal!! So, this is much more easy for you.
+     
+  
+
+# [Remember]- you have to maintain this 'export' methode when you open a new terminal also . Then type the generated api key in line- 459,
 
     .expect("type your NVD API KEY here"); 
 
 
-# Now RUN:
+- [4] Install & run from SOURCE:
+           
+            git clone https://github.com/MrEchoFi/CVE_Wraith.git
+            cd CVE_Wraith
 
-Now you can run this tool by typing this:
+            // In linux,
+            export NVD_API_KEY="your generated api key via NVD"
 
-           cargo run
+            // In windows,
+            setx NVD_API_KEY "your_api_key_here"
 
-- video:
+          
+            cargo build --release
+            ./target/release/<binary-name>
+
+            OR,
+
+            chmod +x install1.sh
+            
+            ./install1.sh
+
+            then,
+
+            chmod +x run1.sh
+
+            ./run1.sh
+
+            NOTE: Via this "./run1.sh " method ; you do not need to type -> [export NVD_API_KEY="your generated api key via NVD"] in terminal while swithcing to new terminal or any terminal!! So, this is much more easy for you.
+
+- [5] Install & run via 'cargo' :
+
+       cargo install cve_wraith
+
+       // In linux,
+            export NVD_API_KEY="your generated api key via NVD"
+
+      // In windows,
+           setx NVD_API_KEY "your_api_key_here"
+
+       Now run,
+
+       cve_wraith
+
+      OR,
+       chmod +x install2.sh
+            
+            ./install2.sh
+
+            then,
+
+            chmod +x run2.sh
+
+            ./run2.sh
+
+            NOTE: Via this "./run2.sh " method ; you do not need to type -> [export NVD_API_KEY="your generated api key via NVD"] in terminal while swithcing to new terminal or any terminal!! So, this is much more easy for you.
+           
+
+
+
+# video:
 
 [cve_wraith2.webm](https://github.com/user-attachments/assets/3ec9768d-9548-45b8-be48-26704afc2a04)
 
