@@ -1,9 +1,9 @@
 [package]
-name = "cve_wraith"   # this will be the install name
+name = "cve_wraith"   
 version = "0.1.0"
 edition = "2024"
 description = "A tool for CVE research and exploitation workflows"
-license = "MIT"       # or another valid SPDX license
+license = "MIT"      
 repository = "https://github.com/MrEchoFi/CVE_Wraith"
 
 
