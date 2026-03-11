@@ -455,7 +455,7 @@ async fn fetch_cves(app: &mut App) -> Result<(), Box<dyn Error>> {
     app.logs.push("- Fetching CVEs from NVD...".into());
 
     let api_key = env::var("NVD_API_KEY")
-        .expect("ea72e05f-9830-4dcd-8cf5-428cc18e2191");  //type the api key here if you have one, otherwise it will use the default key which has very limited rate limits
+        .expect("your api key");  //type the api key here if you have one, otherwise it will use the default key which has very limited rate limits
 
     let client = Client::new();
 
